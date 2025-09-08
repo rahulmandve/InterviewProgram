@@ -8,9 +8,7 @@ public class Str_I_love_java_gnimmargorP {
 		String s="I love java Programming";
 		
 		String[]arr=s.split(" ");
-		
-		
-		String revers=arr[3].toString();
+		String lastword=arr[arr.length-1];
 		
 		StringBuffer sb=new StringBuffer();
 
@@ -20,10 +18,10 @@ public class Str_I_love_java_gnimmargorP {
 			sb.append(arr[j]+" ");
 		}
 		
-		for(int i=revers.length()-1;i>=0;i--)
+		for(int i=lastword.length()-1;i>=0;i--)
 		{
 			
-		sb.append(revers.charAt(i));
+		sb.append(lastword.charAt(i));
 		
 		}
 		System.out.println(sb);

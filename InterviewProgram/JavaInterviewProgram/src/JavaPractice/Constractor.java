@@ -1,10 +1,10 @@
 package JavaPractice;
 
-class parent2{
+class  parent2{
 	
 	String name;
 	int roll;
-	parent2(String name,int roll){
+	 parent2(String name,int roll){
 		this.name=name;
 		this.roll=roll;
 	}
