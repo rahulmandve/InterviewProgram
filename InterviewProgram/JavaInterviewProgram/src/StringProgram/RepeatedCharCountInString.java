@@ -22,6 +22,7 @@ public class RepeatedCharCountInString {
 				hm.put(ch, hm.get(ch)+1);
 			}
 		}
+		
 System.out.println(hm);
 	}
 

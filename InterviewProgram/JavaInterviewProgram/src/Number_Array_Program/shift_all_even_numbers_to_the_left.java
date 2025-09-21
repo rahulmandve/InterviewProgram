@@ -11,8 +11,8 @@ public class shift_all_even_numbers_to_the_left {
 		
 		for (int i = arr.length - 1; i >= 0; i--) {
             if (arr[i]%2!= 0) {
-                arr[index] = arr[i];
-                index--;
+                arr[index--] = arr[i];
+                
                 System.out.print(arr[i]);
             }
             	

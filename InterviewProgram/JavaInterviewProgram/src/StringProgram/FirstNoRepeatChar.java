@@ -18,8 +18,7 @@ public class FirstNoRepeatChar {
 				}
 				if(count==0)
 				{
-					//result +=s.charAt(i);
-					result =result+s.charAt(i);
+					result +=s.charAt(i);
 							break;
 				}
 			
